@@ -34,7 +34,7 @@ const DraggableComponent = () => {
   );
 };
 
-export default function App1() {
+export const App = () => {
   return (
     <div className="App">
       <DraggableComponent />
@@ -44,4 +44,4 @@ export default function App1() {
       <DraggableComponent />
     </div>
   );
-}
+};
